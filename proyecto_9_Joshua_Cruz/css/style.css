@@ -1,0 +1,154 @@
+
+/* Joshua Sebastian Cruz*/
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0;
+  text-align: center;
+
+}
+
+body{
+  background-color: #0656e1;
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.titulo h1 {
+  font-size: 36px;
+  color: whitesmoke;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.titulo h1 img {
+  display: inline-block; 
+}
+
+img{
+  width: 50px;
+}
+
+
+
+.formulario {
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  padding: 20px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.input-text, .input-date, .input-submit {
+  width: 100%;
+  max-width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #0656e1;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.input-submit{
+  cursor: pointer;
+}
+.input-submit:hover{
+  background-color:#d40c0c;
+  color: #fff;
+}
+
+.evento {
+  background-color: rgb(6, 103, 142);
+  padding: 10px;
+  border: 3px solid rgb(17, 148, 200);
+  gap: 2rem;
+  border-radius: 10px;
+  overflow: hidden;
+  word-wrap: break-word; 
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 800px; 
+  margin: 0 auto; 
+  text-align: center; 
+}
+.dias {
+ 
+  display: flex;
+  text-align: left;
+}
+.nombreEvento {
+  font-size: 2em;
+  margin-bottom: 5px;
+  text-align: center; /* Centrar contenido horizontalmente */
+
+}
+
+.fechaEvento {
+  color: #d40c0c;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.dias .texto {
+  margin-top: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+.texto {
+  font-size: 30px;
+  margin-top: 2.5%;
+}
+
+.diasFaltantes {
+  font-weight: bold;
+  font-size: 10vh;
+  color: #d40c0c;
+}
+
+.acciones {
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+  
+  
+}
+
+.eliminar {
+  background-color: rgb(22, 112, 148);
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  width: 150px; 
+  height: 40px; 
+  border-radius: 2%;
+}
+
+.acciones :hover{
+  background-color: #d40c0c;
+}
+
+.formulario, .evento {
+  box-shadow: 2px 2px 5px rgba(0, 0, 200000, 0.685);
+}
+
+footer {
+  background-color: rgb(9, 25, 98);
+  text-align: center; 
+  padding: 10px; 
+}
+
+footer a{
+  text-decoration: none;
+  color: #fff; /* Cambiar color del texto */
+  display: inline-block; /* Convertir en bloque para centrar */
+  width: 100%; /* Asegurar que ocupe todo el ancho */
+  
+}
